@@ -1,9 +1,14 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Header } from './components/header/header';
+import { Footer } from "./components/footer/footer";
+import { BookListComponent } from './components/book-list/book-list.component';
+import { LiteraryGenreComponent } from "./components/literary-genre/literary-genre.component";
+
+
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [Header, Footer, BookListComponent, LiteraryGenreComponent],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
