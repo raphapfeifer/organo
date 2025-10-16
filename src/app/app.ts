@@ -8,7 +8,7 @@ import { LiteraryGenreComponent } from "./components/literary-genre/literary-gen
 
 @Component({
   selector: 'app-root',
-  imports: [Header, Footer, BookListComponent, LiteraryGenreComponent],
+  imports: [Header, Footer, BookListComponent],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })

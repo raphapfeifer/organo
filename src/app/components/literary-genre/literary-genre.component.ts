@@ -1,6 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, input } from '@angular/core';
 import { BookComponent } from '../book/book.component';
-import { books } from '../../mock-books';
+import { LiteraryGenre } from '../book/book';
 
 
 @Component({
@@ -11,5 +11,5 @@ import { books } from '../../mock-books';
 })
 export class LiteraryGenreComponent {
 
-  book = books[0]
+  genre = input.required<LiteraryGenre>();
 }
