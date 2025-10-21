@@ -1,4 +1,4 @@
-<section>
+<section [ngClass]="book().literaryGenre.id">
     <button class="favourite-btn" (click)="pushFavourite()">
         <span>{{book().favourite ? '\u2764' : '\u2661'}}</span>
     </button>   

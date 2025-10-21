@@ -35,3 +35,43 @@
     color: #3b3b3b;
     font-size: 20px;
 }
+
+.romance {
+  background-color: #E8FFFF;
+}
+
+.genres .romance {
+  border-bottom: 4px solid #82CFFA;
+}
+
+.mystery {
+  background-color: #E9FFE3;
+}
+
+.genres .mystery {
+  border-bottom: 4px solid #A6D157;
+}
+
+.fantasy {
+  background-color: #FFE3E3;
+}
+
+.genres .fantasy {
+  border-bottom: 4px solid #E06B69;
+}
+
+.science-fiction {
+  background-color: #FFF0FA;
+}
+
+.genres .science-fiction {
+  border-bottom: 4px solid #DB6EBF;
+}
+
+.technicians {
+  background-color: #FFF1E4;
+}
+
+.genres .technicians {
+  border-bottom: 4px solid #FF8A29;
+}
